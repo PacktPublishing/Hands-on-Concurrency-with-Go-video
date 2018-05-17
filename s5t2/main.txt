@@ -1,0 +1,25 @@
+In this video, we're going to discuss the story of Apache and SlowLoris.
+ST
+Apache is a popular open-source webserver. It employs a very limited "task concurrent" model, whereby it starts a number
+of workers immediately upon starting and sends each new request to one of them.
+ST
+This is effective, so long as each request is a relatively short one. That is, if a single request takes a very long time
+to complete, it can slow down its worker, meaning it completes fewer requests in a single time period.
+While less than ideal, it's not a huge issue, so long as there are only a few problematic requests, because the other
+workers can deal with other requests.
+ST
+If requests come in that each take 1000 times as long as a regular requests, or perhaps never terminate, no new work
+will get done. The requests just pile up. This is known as an application level denial of service, and it normally
+only happens if there is a flaw in the web application for which Apache is serving as a front end that allows an attacker
+to craft requests that will take a long time to finish.
+ST
+However, in 2008, a security researcher called RSnake devised the SlowLoris attack, which can cause this condition
+without a corresponding vulnerability in the web application. An attacker could send just a few requests that would
+totally stop all processing happening on the server.
+ST
+Many other web servers are completely immune to this attack. That's because they simply spin off a new job every time
+a request comes in, and when one request is idle (as the slowloris requests almost always are) they can just execute other
+jobs, meaning that a few slow requests don't mean a total denial of service.
+ST
+In the next video, we'll discuss our next project: a Reddit and HackerNews search engine.
+

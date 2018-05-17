@@ -1,0 +1,117 @@
+Researchers have developed a water-based battery to store solar and wind energy: https://news.stanford.edu/2018/04/30/new-water-based-battery-offers-large-scale-energy-storage/
+by nopinsight on HackerNews
+
+Ask HN: Freelancer? Seeking freelancer? (May 2018): 
+by whoishiring on HackerNews
+
+Amazon Pauses Huge Development Plans in Seattle Over Tax Plan: https://www.nytimes.com/2018/05/02/technology/amazon-development-tax.html
+by stablemap on HackerNews
+
+Buffett to Musk: ‘There Are Some Pretty Good Moats Around’: https://www.bloomberg.com/news/articles/2018-05-05/buffett-to-musk-there-are-some-pretty-goods-moats-around
+by mcguire on HackerNews
+
+The rise of the pointless job: https://www.theguardian.com/money/2018/may/04/i-had-to-guard-an-empty-room-the-rise-of-the-pointless-job
+by kawera on HackerNews
+
+Show HN: ~200 byte in-browser, no JS, private notepad: https://jjjjjjjjjjjjjjjjjjjj.github.io/new-note/
+by janneklouman on HackerNews
+
+Subscription Hell: https://techcrunch.com/2018/05/06/subscription-hell/
+by Semirhage on HackerNews
+
+AI researchers allege that machine learning is alchemy: http://www.sciencemag.org/news/2018/05/ai-researchers-allege-machine-learning-alchemy?rs=1
+by kbwt on HackerNews
+
+Learning to write a compiler: https://stackoverflow.com/questions/1669/learning-to-write-a-compiler/1672#1672
+by ghosthamlet on HackerNews
+
+Amazon halts Seattle expansion over city tax proposal: https://techcrunch.com/2018/05/03/amazon-halts-seattle-expansion-over-city-tax-proposal/
+by uptown on HackerNews
+
+Hosting your static site with AWS S3, Route 53, and CloudFront for free: https://vickylai.com/verbose/aws-static-site/
+by startupflix on HackerNews
+
+Gitea: Open source, self-hosted GitHub alternative: https://gitea.io/en-US/
+by amjd on HackerNews
+
+The Case Against Computers in K-13 Math Education (1996): https://sites.math.washington.edu/~koblitz/mi.html
+by jessup on HackerNews
+
+NASA advisers say SpaceX rocket technology could put lives at risk: http://www.chicagotribune.com/news/nationworld/ct-nasa-spacex-rocket-elon-musk-20180505-story.html
+by jackfoxy on HackerNews
+
+Coming from java, ML with R lang is terrifying: https://v.redd.it/7gooktvf4aw01
+by timpzal0ca on Reddit /r/programming
+
+Writing DOS programs w/ GCC, for demos and vintage hardware.: https://www.youtube.com/watch?v=Y7vU5T6rKHE
+by rener2 on Reddit /r/programming
+
+Shaving terraform yaks: https://dev.to/davidk01/shaving-terraform-yaks-2jll
+by davidk01 on Reddit /r/programming
+
+Check the quality of Kotlin code: https://blog.frankel.ch/check-quality-kotlin-code/
+by nfrankel on Reddit /r/programming
+
+Using Devilbox for Local WordPress Development in Docker: https://deliciousbrains.com/devilbox-local-wordpress-development-docker/
+by cytopia on Reddit /r/programming
+
+Always-on production Flame Graphs for Java: https://www.opsian.com/blog/always-on-production-flame-graphs/
+by nfrankel on Reddit /r/programming
+
+Login And Registration Simple with Spring 4 MVC: https://www.jackrutorial.com/2018/01/creating-a-web-application-with-spring-4-mvc-example-for-user-signup-login-and-logout-with-password-encoder-using-eclipse-mysql-database.html
+by JackRutorial on Reddit /r/programming
+
+Unleash your version control skill in n minutes: https://medium.com/@youawesum/unleash-your-version-control-skill-in-10-minutes-41ee7fec4824
+by yophats on Reddit /r/programming
+
+The npm Blog — Reported malicious module: getcookies: https://blog.npmjs.org/post/173526807575/reported-malicious-module-getcookies
+by michalg82 on Reddit /r/programming
+
+Swift/Go "defer" in C: https://twitter.com/spudowiar/status/993069519336824833
+by ParanoidDudette on Reddit /r/programming
+
+Working with OpenCL and Cuda in Nim: https://mratsim.github.io/Arraymancer/uth.opencl_cuda_nim.html
+by Karyo_Ten on Reddit /r/programming
+
+How would I go about creating a website such as thebasetrip.com?: http://www.thebasetrip.com
+by thepostmanpat on Reddit /r/programming
+
+Our Approach to Employee Security Training: https://www.pagerduty.com/blog/security-training-at-pagerduty/
+by nfrankel on Reddit /r/programming
+
+Major Automakers Aim to Bring Blockchain to Cars: https://www.infoq.com/news/2018/05/mobility-open-blockchain-mobi
+by stronghup on Reddit /r/programming
+
+[1804.10949] Variable-Byte Encoding is Now Space-Efficient Too: https://arxiv.org/abs/1804.10949
+by dgryski on Reddit /r/programming
+
+Next Generation Indexes For Big Data Engineering (slides): https://speakerdeck.com/lemire/next-generation-indexes-for-big-data-engineering-odsc-east-2018
+by dgryski on Reddit /r/programming
+
+Unit Testing Framework for SHA256: https://webassemblycode.com/unit-testing-framework-sha256/
+by Tazebr123 on Reddit /r/programming
+
+Microsoft's 'Meltdown' Patch For Windows 10 Contains a Fatal Flaw: https://www.bleepingcomputer.com/news/security/microsoft-working-on-a-fix-for-windows-10-meltdown-patch-bypass/
+by ljluzjvert on Reddit /r/programming
+
+This - standardized project tool for running common tasks like build/test/run/deploy: https://github.com/iBelieve/this
+by iBeliever on Reddit /r/programming
+
+I wrote a CLI that adds a .gitignore to your projects: https://github.com/TejasQ/add-gitignore
+by TejasKumar_ on Reddit /r/programming
+
+GCC 8.1 Released: https://gcc.gnu.org/ml/gcc/2018-05/msg00017.html
+by ljluzjvert on Reddit /r/programming
+
+The Big Features &amp; Improvements Of The GCC 8 Compiler: https://www.phoronix.com/scan.php?page=news_item&amp;px=GCC-8-Compiler-Features-List
+by ljluzjvert on Reddit /r/programming
+
+Are interruptions really worse for programmers than for other knowledge workers?: https://dev.to/_bigblind/are-interruptions-really-worse-for-programmers-than-for-other-knowledge-workers-2ij9
+by ericgj on Reddit /r/programming
+
+How should i modify this code so it will get an already encrypted text(as an input) and turn in the plaintext?: https://pastebin.com/U5eRgAMn
+by Quasar_95 on Reddit /r/programming
+
+Java Mission Control open sourced: http://hirt.se/blog/?p=944
+by sureshg on Reddit /r/programming
+

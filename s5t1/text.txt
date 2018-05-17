@@ -1,0 +1,33 @@
+In this video, we'll be discussing task parallelism - the most high-level form of parallelism, and one of the most
+important in many applications.
+ST
+In this video, we'll define exactly what task parallelism is.
+ST
+Task parallel problems are those problems which can be solved with many long-running procedures that don't depend on
+eachother's data.
+ST
+One great example of task parallelism is web programming. Web servers accept requests from clients, which are all slightly
+different, process them, and return a response. This typically involves reading from disk, communicating with
+another web server, and/or talking to a database.
+ST
+Each of these requests is totally different. Some may take a very short time, like a cached static file request that's
+already in memory. On the other hand, it might be necessary to connect to a database, do some processing, and then read
+from the disk to respond to a search request, for example.
+ST
+If we waited until each request was finished before processing new ones, we could end up in a bad scenario. Let's say each
+cached page request takes 20ms, while a search request takes 60ms. If we processed each web request sequentially,
+it could take a very long time to finish all of them - for two search requests and five simple cached page requests,
+it could take as long as 220ms. Several users have to wait over 100ms.
+ST
+Even if we have the capacity to handle just two simultaneous worker threads, we can dramatically improve this. Now,
+the total time is just 120ms, and only one user has to wait more than 100ms.
+ST
+Task parallelism can be combined with other kinds of concurrency, such as I/O concurrency. For instance, there are
+times during the search request that are simply waiting for the disk or database. What if we handled a cached
+page request during that time?
+ST
+Well, even assuming we could handle only a single cached page request during that time, we get vastly improved numbers.
+Now, only one user has to wait a whole 100ms.
+ST
+In the next video, we'll examine a cautionary tale of why, exactly, it's so very important to use task concurrency and
+parallelism.

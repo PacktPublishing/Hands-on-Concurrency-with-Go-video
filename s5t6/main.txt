@@ -1,0 +1,23 @@
+In this video, we'll look at the pros and cons of using a task concurrent architecture.
+ST
+There are many advantages, some of which we've discussed in the past. Primarily, task concurrent programs
+take better advantage of the CPU, are easier to test and debug, are faster and easier to migrate across systems,
+and have a reduced attack profile for denial of service attacks.
+ST
+There is, however, one major downside: data convergence and integrity. Task concurrent systems can cause problems when
+multiple tasks end up accessing the same data. For instance, imagine two customers come to a website in rapid sequence
+and try to buy the same product.
+ST
+So long as there is sufficient inventory, this is fine. Both are presented with a page telling themy they can buy the product,
+both buy it, and both orders can be fulfilled.
+ST
+On the other hand, if there is only one item left, the inventory system will have to deny one of the customers' purchases.
+This is a suboptimal situation, as that customer may never recieve their product, or will at least have to wait until
+it is back in stock.
+ST
+This should make clear something which we'll explore in more detail later: all concurrency is a tradeoff between
+efficiency and complexity.
+ST
+In the next section, we'll discuss this tradeoff and other high level design concepts around concurrency, collectively
+known as concurrent architecture.
+

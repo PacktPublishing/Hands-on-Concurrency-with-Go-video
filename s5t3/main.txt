@@ -1,0 +1,18 @@
+In this video, we'll design the Reddit and HackerNews search engine we'll build in the next video.
+ST
+We're going to extend our existing client to support search, and act as an aggregation server.
+In essence, we're going to keep a list of known stories in memory.
+ST
+We'll also implement "long" and "short" requests. The "short" request, at the home page /, will just return the first 10
+stories our app knows about.
+The long request, on the other hand, will implement a rather inefficient search algorithm: it will look through the
+whole list of known stories and return all those matching the search term.
+ST
+We'll do this in two parts. First, we'll create a web service that is able to search through a list of stories.
+We'll start out with a predefined list of stories, and use the Go net/http package to serve our requests.
+net/http already implements a task-concurrent web server.
+ST
+Then, we'll incorporate our existing Reddit and HackerNews client code, and implement
+the actual search engine. We'll make sure to keep everything isolated and fully task concurrent.
+ST
+In the next video, we'll work on the web server.
